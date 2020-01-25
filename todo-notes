@@ -1,0 +1,15 @@
+Notes
+
+CRUD for Todo Lists
+
+- Create new lists
+Done.
+Use input form to add new list and capture list name.
+
+- Request list title
+Need to use Javascript to get list name.
+Use POST to transfer post name to app.py.
+In app.py, need to create a new funtion to take the list name and ID (how do I get the ID?) to submit to the database.
+
+- Update database with new list
+Once the list name and ID is submitted to the database, I need to have it automatically route to a new URL using that list ID in app.py. (ID comes from database, not from user input (Model?))
